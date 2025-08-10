@@ -1,0 +1,28 @@
+@"
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+*.log
+
+# Python / FastAPI
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.mypy_cache/
+pytest_cache/
+
+# Common
+.DS_Store
+Thumbs.db
+logs/
+coverage/
+
+# Secrets
+.env
+.env.*
+*.pem
+"@ | Out-File -Encoding utf8 .gitignore
